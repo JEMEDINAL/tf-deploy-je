@@ -31,7 +31,7 @@ sg_config = {
     name                 = "ause-sg-cuenta-proyecto-juanestebanv2"
     description          = "Descripcion para grupo de seguridad"
     vpc_id               = "vpc-00f479057476a2db8"
-    projectsecuritygroup = "sgproyect"
+    projectsecuritygroup = "sgproyect-juanesteban"
     ingress_rules = [
       { from_port = 3389, to_port = 3389, protocol = "tcp", cidr_blocks = ["10.0.0.0/8"]
       },
