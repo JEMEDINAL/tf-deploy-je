@@ -28,7 +28,7 @@ ec2_config = {
 }
 sg_config = {
   instance_1 = {
-    name                 = "ause-sg-cuenta-proyecto-juanesteban"
+    name                 = "ause-sg-cuenta-proyecto-juanestebanv2"
     description          = "Descripcion para grupo de seguridad"
     vpc_id               = "vpc-00f479057476a2db8"
     projectsecuritygroup = "sgproyect"
